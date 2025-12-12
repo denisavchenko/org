@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Детальная информация</title>
+    
+    <!-- Google Fonts - Roboto -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    
+    <!-- Leaflet CSS -->
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+    
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="detail.css">
+</head>
+<body>
+    <!-- Шапка -->
+    <header class="header">
+        <div class="header-container">
+            <nav class="nav-links">
+                <a href="index.html" class="nav-link-main">Главная</a>
+                <a href="index.html#map-section">Карта</a>
+                <a href="index.html#gallery">Достопримечательности</a>
+            </nav>
+            <a href="favorites.html" class="btn-favorites" id="header-favorites-btn">
+                <span class="favorites-icon" id="header-favorites-icon">🤍</span>
+                <span class="favorites-count" id="header-favorites-count">0</span>
+            </a>
+        </div>
+    </header>
+
+    <!-- Основной контент -->
+    <div class="container detail-container">
+        <!-- Кнопка назад -->
+        <a href="index.html" class="back-link">
+            <span>←</span>
+            <span>Вернуться к списку</span>
+        </a>
+
+        <!-- Заголовок и рейтинг -->
+        <div class="detail-header">
+            <div class="detail-title-section">
+                <h1 class="detail-title" id="detail-title">Загрузка...</h1>
+                <div class="detail-rating-section">
+                    <div class="detail-rating" id="detail-rating">
+                        <span class="rating-value" id="rating-value">-</span>
+                        <div class="rating-stars" id="rating-stars"></div>
+                        <span class="rating-count" id="rating-count">(0 отзывов)</span>
+                    </div>
+                    <div class="detail-rank" id="detail-rank"></div>
+                </div>
+            </div>
+            <div class="detail-actions">
+                <button class="action-btn" id="share-btn">
+                    <span>📤</span>
+                    <span>Поделиться</span>
+                </button>
+                <button class="action-btn favorite-btn" id="detail-favorite-btn">
+                    <span class="heart-icon" id="detail-heart-icon">🤍</span>
+                    <span>Сохранить</span>
+                </button>
+            </div>
+        </div>
+
+        <!-- Галерея изображений -->
+        <div class="detail-gallery">
+            <div class="main-image" id="main-image">
+                <div class="image-placeholder">Загрузка...</div>
+            </div>
+            <div class="thumbnail-images" id="thumbnail-images"></div>
+        </div>
+
+        <!-- Основная информация -->
+        <div class="detail-content">
+            <div class="detail-main">
+                <section class="info-section">
+                    <h2>Информация</h2>
+                    <p class="detail-description" id="detail-description"></p>
+                    <div class="detail-meta">
+                        <div class="meta-item">
+                            <strong>Категория:</strong>
+                            <span id="detail-category"></span>
+                        </div>
+                        <div class="meta-item">
+                            <strong>Местоположение:</strong>
+                            <span id="detail-location">Республика Карелия</span>
+                        </div>
+                        <div class="meta-item">
+                            <strong>Время в пути:</strong>
+                            <span id="detail-travel-time">2-3 часа</span>
+                        </div>
+                    </div>
+                </section>
+
+                <!-- Часы работы -->
+                <section class="info-section">
+                    <h2>Часы работы</h2>
+                    <div class="hours-info">
+                        <span class="hours-status" id="hours-status">Открыто сейчас</span>
+                        <div class="hours-schedule" id="hours-schedule">
+                            <p>Понедельник - Воскресенье: 10:00 - 19:00</p>
+                        </div>
+                    </div>
+                </section>
+
+                <!-- Карта -->
+                <section class="info-section">
+                    <h2>Расположение на карте</h2>
+                    <div class="detail-map-container">
+                        <div id="detail-map"></div>
+                    </div>
+                </section>
+            </div>
+
+            <!-- Боковая панель с оценкой -->
+            <aside class="detail-sidebar">
+                <div class="rating-widget">
+                    <h3>Оцените это место</h3>
+                    <div class="rating-input">
+                        <div class="star-rating" id="star-rating">
+                            <span class="star" data-rating="1">⭐</span>
+                            <span class="star" data-rating="2">⭐</span>
+                            <span class="star" data-rating="3">⭐</span>
+                            <span class="star" data-rating="4">⭐</span>
+                            <span class="star" data-rating="5">⭐</span>
+                        </div>
+                        <p class="rating-hint">Нажмите на звезду для оценки</p>
+                    </div>
+                    <button class="submit-rating-btn" id="submit-rating-btn" disabled>Отправить оценку</button>
+                </div>
+            </aside>
+        </div>
+    </div>
+
+    <!-- Leaflet JS -->
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+    
+    <!-- Custom JS -->
+    <script src="detail.js"></script>
+</body>
+</html>
+

@@ -1,0 +1,905 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Кижский погост",
+        "description": "Архитектурный ансамбль, объект Всемирного наследия ЮНЕСКО",
+        "theme": "architecture"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [35.2236, 62.0669]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Успенская церковь Кижского погоста",
+        "description": "Главная церковь ансамбля Кижского погоста",
+        "theme": "architecture"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [35.2236, 62.0669]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Часовня Лазаря на Кижах",
+        "description": "Одна из старейших деревянных церквей России, находится на острове Кижи",
+        "theme": "architecture"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [35.2236, 62.0669]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Церковь Дмитрия Солунского в Васильево",
+        "description": "Деревянная церковь, перевезённая в музей-заповедник «Кижи»",
+        "theme": "architecture"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [35.2236, 62.0669]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Церковь Илии Пророка в Сямозере",
+        "description": "Деревянная церковь на берегу Сямозера",
+        "theme": "architecture"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [33.1819, 61.9214]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Часовня Архангела Михаила в Лижмозере",
+        "description": "Деревянная часовня в посёлке Лижмозеро",
+        "theme": "architecture"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [34.5508, 62.1122]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Часовня Пантелеимона Целителя в Ламбасруче",
+        "description": "Часовня в деревне Ламбасручей",
+        "theme": "architecture"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [33.9458, 61.5156]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Часовня Прокопия Праведного в Шелтозере",
+        "description": "Часовня в селе Шелтозеро",
+        "theme": "architecture"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [33.8764, 61.3714]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Деревня Кинерма",
+        "description": "Живописная карельская деревня-памятник",
+        "theme": "settlement"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [33.7181, 61.6589]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Деревня Яндомозеро",
+        "description": "Деревня на берегу Яндомозера",
+        "theme": "settlement"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [35.4325, 62.0758]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Республиканский музей «Кижи» (администрация)",
+        "description": "Администрация музея-заповедника «Кижи» в Петрозаводске",
+        "theme": "museum"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [34.3614, 61.7869]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Национальный музей Республики Карелия",
+        "description": "Главный историко-краеведческий музей Карелии в Петрозаводске",
+        "theme": "museum"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [34.3658, 61.7875]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Музей изобразительных искусств Карелии",
+        "description": "Художественный музей в Петрозаводске",
+        "theme": "museum"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [34.3658, 61.7875]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Дом Куклы в Петрозаводске",
+        "description": "Частный музей авторской куклы",
+        "theme": "museum"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [34.3619, 61.7842]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Карельская государственная филармония",
+        "description": "Концертная организация и зал в Петрозаводске",
+        "theme": "culture"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [34.3622, 61.7883]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Музыкальный театр Республики Карелия",
+        "description": "Театр оперы и балета в Петрозаводске",
+        "theme": "culture"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [34.3639, 61.7897]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Музей «Марциальные воды»",
+        "description": "Первый российский курорт, основанный Петром I",
+        "theme": "museum"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [33.9231, 61.9994]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Музей Беломорско-Балтийского канала",
+        "description": "Музей истории ББК в посёлке Повенец",
+        "theme": "museum"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [34.8314, 62.8483]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Беломорский краеведческий музей",
+        "description": "Музей в городе Беломорск",
+        "theme": "museum"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [34.7681, 64.525]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Медвежьегорский краеведческий музей",
+        "description": "Музей в городе Медвежьегорск",
+        "theme": "museum"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [34.4667, 62.9167]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Природный музей-заповедник «Кивач»",
+        "description": "Заповедник с одноимённым водопадом",
+        "theme": "nature"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [33.9806, 62.2683]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Музей карельского фронта Великой Отечественной войны",
+        "description": "Музей в Беломорске",
+        "theme": "museum"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [34.7681, 64.525]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Музей промышленности ОТЗ",
+        "description": "Музей Онежского тракторного завода в Петрозаводске",
+        "theme": "museum"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [34.3314, 61.8158]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Музей культуры вепсов в Шёлтозере",
+        "description": "Музей вепсской культуры в селе Шелтозеро",
+        "theme": "museum"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [33.8764, 61.3714]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Пудожский историко-краеведческий музей",
+        "description": "Музей в городе Пудож",
+        "theme": "museum"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [36.5333, 61.8]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Валаамский Спасо-Преображенский монастырь",
+        "description": "Главный монастырь на острове Валаам",
+        "theme": "monastery"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [30.9574, 61.3889]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Валаамский Никольский скит",
+        "description": "Скит на отдельном острове Валаамского архипелага",
+        "theme": "monastery"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [30.9554, 61.3889]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Валаамский Смоленский скит",
+        "description": "Скит на Валааме",
+        "theme": "monastery"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [30.9567, 61.3889]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Валаамский Гефсиманский скит",
+        "description": "Скит на Валааме",
+        "theme": "monastery"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [30.9564, 61.3889]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Серафимо-Саровский скит Валаама",
+        "description": "Отдалённый скит на Валааме",
+        "theme": "monastery"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [30.9564, 61.3899]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Петропавловская церковь в Петрозаводске",
+        "description": "Старейшая каменная церковь Петрозаводска",
+        "theme": "architecture"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [34.3806, 61.7933]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Собор Александра Невского в Петрозаводске",
+        "description": "Кафедральный собор Петрозаводска",
+        "theme": "architecture"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [34.3769, 61.7914]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Церковь Богородицы Казанской в Олонце",
+        "description": "Церковь в городе Олонец",
+        "theme": "architecture"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [32.9667, 60.9833]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Церковь Вознесения Господня в Олонце",
+        "description": "Церковь в городе Олонец",
+        "theme": "architecture"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [32.9667, 60.9833]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Церковь Рождества Богородицы в Кондопоге",
+        "description": "Деревянная церковь в Кондопоге",
+        "theme": "architecture"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [34.2614, 62.2056]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Петроглифы Залавруги",
+        "description": "Крупнейшее скопление петроглифов в Беломорье",
+        "theme": "archaeology"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [34.6689, 64.4878]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Петроглифы Выгострова",
+        "description": "Петроглифы на реке Выг",
+        "theme": "archaeology"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [34.7167, 64.4833]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Петроглифы на острове Ересь",
+        "description": "Петроглифы на острове в Онежском озере",
+        "theme": "archaeology"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [35.4167, 61.6667]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Петроглифы на реке Унже",
+        "description": "Петроглифы в низовьях реки Унжа (Карелия)",
+        "theme": "archaeology"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [34.5667, 64.1333]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Петроглифы Онежского озера",
+        "description": "Обобщённое место наскальных рисунков на восточном берегу Онежского озера (мыс Бесов Нос и др.)",
+        "theme": "archaeology"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [35.75, 61.6667]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Петроглифы в районе Каршево",
+        "description": "Петроглифы в районе деревни Каршево на Онежском озере",
+        "theme": "archaeology"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [36.0167, 61.4833]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Археологические стоянки Укса",
+        "description": "Комплекс археологических памятников в устье реки Укса",
+        "theme": "archaeology"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [30.7167, 61.1667]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Оленеостровский могильник",
+        "description": "Известный неолитический могильник на Южном Оленьем острове (Онежское озеро)",
+        "theme": "archaeology"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [35.4333, 61.5]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Саамские сейды Олангских возвышенностей",
+        "description": "Священные камни-сейды в районе Оланга (Паанаярви)",
+        "theme": "archaeology"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [30.55, 66.2833]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Мегалитические сооружения горы Воттоваара",
+        "description": "Загадочные каменные сложения на горе Воттоваара",
+        "theme": "archaeology"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [32.9833, 63.0667]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Водопад Кивач",
+        "description": "Второй по величине равнинный водопад Европы",
+        "theme": "nature"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [33.9806, 62.2683]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Национальный парк Паанаярви",
+        "description": "Национальный парк на северо-западе Карелии",
+        "theme": "nature"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [30.5833, 66.2333]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Национальный парк Калевальский",
+        "description": "Национальный парк в Калевальском районе",
+        "theme": "nature"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [30.5, 64.9167]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Национальный парк Ладожские шхеры",
+        "description": "Национальный парк на северном берегу Ладожского озера",
+        "theme": "nature"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [30.6667, 61.5833]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Природный парк Водлозерский",
+        "description": "Национальный парк «Водлозерский» (часть в Карелии, часть в Архангельской области)",
+        "theme": "nature"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [36.4167, 62.5833]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Водопад Белые мосты (Юканкоски)",
+        "description": "Высокий водопад на реке Кулисмайоки",
+        "theme": "nature"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [31.0194, 61.7519]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Водопад Кумио",
+        "description": "Водопад на реке Кумса в Калевальском районе",
+        "theme": "nature"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [30.7167, 65.1833]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Водопады реки Тохмайоки",
+        "description": "Каскад водопадов на реке Тохмайоки",
+        "theme": "nature"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [31.2833, 61.7167]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Гора Воттоваара",
+        "description": "Загадочная гора с мегалитами, высшая точка Западно-Карельской возвышенности",
+        "theme": "nature"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [32.9833, 63.0667]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Гора Нюхча",
+        "description": "Гора в Беломорском районе",
+        "theme": "nature"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [35.5333, 64.0833]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Озеро Паанаярви",
+        "description": "Жемчужина одноимённого национального парка",
+        "theme": "nature"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [30.55, 66.2333]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Ладожские шхеры",
+        "description": "Скалистый архипелаг на Ладожском озере (обобщённая точка)",
+        "theme": "nature"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [30.6667, 61.5833]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Остров Килпола",
+        "description": "Остров в Ладожском озере",
+        "theme": "nature"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [31.1333, 61.5333]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Остров Койонсаари",
+        "description": "Популярный остров-пляж на Ладожском озере",
+        "theme": "nature"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [30.2417, 61.7167]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Остров Мантсинсаари",
+        "description": "Крупный остров на Ладожском озере",
+        "theme": "nature"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [31.4333, 61.5167]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Петрозаводская набережная",
+        "description": "Променад на берегу Онежского озера в Петрозаводске",
+        "theme": "urban"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [34.3736, 61.7872]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Памятник Петру I в Петрозаводске",
+        "description": "Памятник основателю города",
+        "theme": "monument"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [34.3653, 61.7894]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Исторический центр Олонца",
+        "description": "Историческая часть старейшего города Карелии",
+        "theme": "urban"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [32.9667, 60.9833]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Исторический центр Кеми",
+        "description": "Историческая часть города Кемь",
+        "theme": "urban"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [34.5667, 64.95]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Историческая застройка Пудожа",
+        "description": "Старинные здания в городе Пудож",
+        "theme": "urban"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [36.5333, 61.8]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Онежская верфь Петрозаводска",
+        "description": "Историческая верфь, ныне судостроительный завод «Авангард»",
+        "theme": "industrial"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [34.3833, 61.8]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Здания Обозренной площади в Петрозаводске",
+        "description": "Ансамбль исторических зданий на площади Гагарина (бывш. Обозренная)",
+        "theme": "urban"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [34.3708, 61.7931]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Государственный архив Республики Карелия",
+        "description": "Основной архив республики в Петрозаводске",
+        "theme": "institution"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [34.3653, 61.7908]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Сандаломский железоделательный завод",
+        "description": "Исторический заводской комплекс (руины) у озера Сандал",
+        "theme": "industrial"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [33.8667, 62.3833]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Мраморный карьер Рускеала",
+        "description": "Горный парк «Рускеала», бывший мраморный карьер",
+        "theme": "industrial"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [30.5833, 61.9333]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Сооружения Беломорско-Балтийского канала",
+        "description": "Обобщённая точка (шлюзы, дамбы и др. вдоль трассы канала)",
+        "theme": "industrial"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [34.8314, 62.8483]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Рабочий посёлок Повенец",
+        "description": "Посёлок в начале ББК, место музея и памятного комплекса",
+        "theme": "settlement"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [34.8314, 62.8483]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Карьер Чёрная Речка",
+        "description": "Заброшенный гранитный карьер под Петрозаводском",
+        "theme": "industrial"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [34.1667, 61.8]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Старая Мурманская железная дорога",
+        "description": "Участки исторической железной дороги (обобщённая точка в районе Медвежьегорска)",
+        "theme": "industrial"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [34.4667, 62.9167]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Рабочий городок Онежского тракторного завода",
+        "description": "Жилой район ОТЗ в Петрозаводске",
+        "theme": "urban"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [34.3314, 61.8158]
+      }
+    }
+  ]
+}

@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Избранное - Путеводитель по Республике Карелия</title>
+    
+    <!-- Google Fonts - Roboto -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    
+    <!-- Leaflet CSS -->
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+    
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Шапка -->
+    <header class="header">
+        <div class="header-container">
+            <nav class="nav-links">
+                <a href="index.html" class="nav-link-main">Главная</a>
+                <a href="index.html#map-section">Карта</a>
+                <a href="index.html#gallery">Достопримечательности</a>
+            </nav>
+            <a href="favorites.html" class="btn-favorites active" id="header-favorites-btn">
+                <span class="favorites-icon" id="header-favorites-icon">❤️</span>
+                <span class="favorites-count" id="header-favorites-count">0</span>
+            </a>
+        </div>
+    </header>
+
+    <!-- Основной контент -->
+    <div class="container">
+        <!-- Заголовок -->
+        <section class="hero-section">
+            <h1 class="hero-title">Избранное</h1>
+        </section>
+
+        <!-- Карта избранного -->
+        <section class="map-section" id="favorites-map-section">
+            <div class="map-container">
+                <div id="favorites-map"></div>
+            </div>
+        </section>
+
+        <!-- Галерея избранного -->
+        <section class="gallery-section" id="favorites">
+            <div class="cards-grid" id="favorites-grid">
+                <!-- Карточки избранного будут добавлены через JavaScript -->
+            </div>
+        </section>
+    </div>
+
+    <!-- Leaflet JS -->
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+    
+    <!-- Custom JS -->
+    <script src="favorites.js"></script>
+</body>
+</html>
+
