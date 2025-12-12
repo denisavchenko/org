@@ -125,10 +125,33 @@
 
     </div>
 
+    <!-- Чат-бот -->
+    <div class="chatbot-container" id="chatbot-container">
+        <div class="chatbot-window" id="chatbot-window">
+            <div class="chatbot-header">
+                <h3>Помощник по маршрутам</h3>
+                <button class="chatbot-close" id="chatbot-close">×</button>
+            </div>
+            <div class="chatbot-messages" id="chatbot-messages">
+                <div class="message bot-message">
+                    <p>Привет! Я помогу вам спланировать маршрут по Карелии. Расскажите, что вас интересует? Например: "Хочу маршрут на 3 дня, люблю архитектуру и природу"</p>
+                </div>
+            </div>
+            <div class="chatbot-input-container">
+                <input type="text" id="chatbot-input" placeholder="Напишите ваш запрос..." />
+                <button id="chatbot-send">Отправить</button>
+            </div>
+        </div>
+        <button class="chatbot-toggle" id="chatbot-toggle">
+            <span>💬</span>
+        </button>
+    </div>
+
     <!-- Leaflet JS -->
     <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
     
     <!-- Custom JS -->
     <script src="script.js"></script>
+    <script src="chatbot.js"></script>
 </body>
 </html>
